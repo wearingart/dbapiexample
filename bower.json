@@ -1,0 +1,21 @@
+{
+  "name": "VICTR Code Test",
+  "homepage": "http://brianswilkins.com/vandy",
+  "authors": [
+    "Brian Wilkins <brianwilkins@gmail.com>"
+  ],
+  "description": "Code Test",
+  "main": "index.php",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
