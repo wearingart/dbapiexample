@@ -1,6 +1,6 @@
 <?php
 
-namespace Vandy;
+namespace DbApiExample;
 
 
 class GitSearch
