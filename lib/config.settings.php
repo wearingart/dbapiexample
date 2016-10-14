@@ -5,7 +5,7 @@
  */
 
 if (!isset($settings) || !array($settings)) {
-    $settings = parse_ini_file('/home/wearingart/vandy.ini', TRUE);
+    $settings = parse_ini_file('/home/wearingart/DbApiExample.ini', TRUE);
 }
 
 //date_default_timezone_set($settings['timezone']['identifier']);

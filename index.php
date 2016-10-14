@@ -1,9 +1,9 @@
 <?php
 
-use Vandy\GitSearch;
+use DbApiExample\GitSearch;
 require_once "./lib/config.settings.php";
 include_once $settings["paths"]["lib_root"] . "config.db.php";
-include_once $settings["paths"]["vandy_root"] . "class.GitSearch.php";
+include_once $settings["paths"]["dbapiexample_root"] . "class.GitSearch.php";
 
 $curl = curl_init();
 
@@ -16,7 +16,7 @@ curl_setopt_array($curl, array(
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => array(
-        "User-Agent: Vandy-Code-Test",
+        "User-Agent: DbApiExample-Code-Test",
         "cache-control: no-cache"
     ),
 ));
@@ -48,7 +48,7 @@ if ($err) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Brian Wilkins - Vanderbilt - VICTR - Code Test</title>
+    <title>Brian Wilkins - DbApiExample</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">

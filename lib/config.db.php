@@ -6,11 +6,11 @@
  * Only one connection is made during the lifetime of the app.
  */
 
-use Vandy\Database;
+use DbApiExample\Database;
 
-require_once "/home/wearingart/webapps/vandy/lib/config.settings.php";
+require_once "/home/wearingart/webapps/dbapiexample/lib/config.settings.php";
 //require_once $_SERVER["DOCUMENT_ROOT"] . "/lib/config.settings.php";
-include_once $settings["paths"]["vandy_root"] . "class.Database.php";
+include_once $settings["paths"]["dbapiexample_root"] . "class.Database.php";
 //global $mysqli;
 
 $db = new Database();

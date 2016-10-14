@@ -4,7 +4,7 @@
  *
  * Description: This class is used to create a Database object.
  */
-namespace Vandy;
+namespace DbApiExample;
 
 class Database
 {
@@ -19,7 +19,7 @@ class Database
     public function connect()
     {
         if (!isset($settings) || !array($settings)) {
-            $settings = parse_ini_file('/home/wearingart/vandy.ini', TRUE);
+            $settings = parse_ini_file('/home/wearingart/DbApiExample.ini', TRUE);
         }
         // Try and connect to the database
         if (!isset(self::$connection)) {
