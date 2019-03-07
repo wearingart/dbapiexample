@@ -1,1 +1,1 @@
-Demo: http://brianswilkins.com/dbapiexample/
+Files are no longer hosted online.
